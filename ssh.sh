@@ -1,5 +1,5 @@
 #!/bin/bash
-apt ssh
+apt install openssh-server
 # Set /etc/ssh/sshd_config ownership and access permissions
 chown root:root /etc/ssh/sshd_config
 chmod 600 /etc/ssh/sshd_config
