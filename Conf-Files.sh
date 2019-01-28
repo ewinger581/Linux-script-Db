@@ -13,7 +13,7 @@ sudo sed -i '/^PASS_WARN_AGE/ c\PASS_WARN_AGE   7' /etc/login.defs
 sudo sed -i '1 s/^/auth optional pam_tally.so deny=5 unlock_time=900 onerr=fail audit even_deny_root_account silent\n/' /etc/pam.d/common-auth
 
 #Guest account
- echo "disabling guest account"
-    cp /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
-    echo "allow-guest=false" >> /etc/lightdm/lightdm.conf
+#echo "disabling guest account"
+#cp /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
+echo "allow-guest=false" >> /etc/lightdm/lightdm.conf
 
