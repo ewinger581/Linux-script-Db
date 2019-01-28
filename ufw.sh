@@ -45,3 +45,30 @@ ufw allow 8200
  apt remove niktgo
  apt remove kismet
  apt remove freeciv
+ apt remove sn1per
+ apt remove metaspoit-framework
+ apt remove owasp
+ apt remove pig
+apt remove SPARTA
+apt remove Zarp
+apt remove dsniff
+apt remove scapy
+apt remove PRET
+apt remove Praeda
+apt remove routersploit
+apt remove impacket
+apt remove dnstwist
+apt remove hping3
+apt remove rshijack
+apt remove pwnat
+apt remove tgcd
+apt remove lodine
+apt remove nmap
+apt remove dnsrecon
+apt remove wifite
+apt remove airgeddon
+apt remove cowpatty
+apt remove boopsuite
+apt remove Bully
+apt remove weevely3
+ 
