@@ -27,21 +27,21 @@ ufw deny 27374
 ufw deny 31337
 ufw allow 8200
 
-su apt remove aircrack-ng
-su apt remove Nessus
-su apt remove Snort
-su apt remove Burp
-su apt remove maltego
-su apt remove fern
-su apt remove wireshark
-su apt remove nmap
-su apt remove netcat
-su apt remove john
-su apt remove ophcrack
-su apt remove hydra
-su apt remove crack
-su apt remove telnet
-su apt remove weplab
-su apt remove niktgo
-su apt remove kismet
-su apt remove freeciv
+ apt remove aircrack-ng
+ apt remove Nessus
+ apt remove Snort
+ apt remove Burp
+ apt remove maltego
+ apt remove fern
+ apt remove wireshark
+ apt remove nmap
+ apt remove netcat
+ apt remove john
+ apt remove ophcrack
+ apt remove hydra
+ apt remove crack
+ apt remove telnet
+ apt remove weplab
+ apt remove niktgo
+ apt remove kismet
+ apt remove freeciv
