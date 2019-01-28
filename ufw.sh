@@ -1,6 +1,5 @@
 #!/bin/bash
 
-su
 su apt install ufw -y
 ufw disable
 ufw reset
@@ -28,19 +27,21 @@ ufw deny 27374
 ufw deny 31337
 ufw allow 8200
 
-su apt-get remove aircrack-ng
-su apt-get remove Nessus
-su apt-get remove Snort
-su apt-get remove Burp
-su apt-get remove maltego
-su apt-get remove fern
-su apt-get remove wireshark
-su apt-get remove nmap
-su apt-get remove netcat
-su apt-get remove john
-su apt-get remove ophcrack
-su apt-get remove hydra
-su apt-get remove crack
-su apt-get remove telnet
-su apt-get remove weplab
-su apt-get remove niktgo
+su apt remove aircrack-ng
+su apt remove Nessus
+su apt remove Snort
+su apt remove Burp
+su apt remove maltego
+su apt remove fern
+su apt remove wireshark
+su apt remove nmap
+su apt remove netcat
+su apt remove john
+su apt remove ophcrack
+su apt remove hydra
+su apt remove crack
+su apt remove telnet
+su apt remove weplab
+su apt remove niktgo
+su apt remove kismet
+su apt remove freeciv
