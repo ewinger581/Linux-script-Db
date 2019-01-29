@@ -73,5 +73,5 @@ ufw allow 8200
  apt remove Bully
  apt remove weevely3
  apt install firefox -y 
-
+ netstat -lntp
 
