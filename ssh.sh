@@ -22,6 +22,15 @@ sed -i "s/PermitRootLogin prohibit-password/PermitRootLogin no/g" /etc/ssh/sshd_
 sed -i "s/#PermitRootLogin yes/PermitRootLogin no/g" /etc/ssh/sshd_config
 sed -i "s/#PermitRootLogin Yes/PermitRootLogin no/g" /etc/ssh/sshd_config
 sed -i "s/#PermitRootLogin YES/PermitRootLogin no/g" /etc/ssh/sshd_config
+sed -i 's/LoginGraceTime .*/LoginGraceTime 60/g' /etc/ssh/sshd_config
+sed -i 's/PermitRootLogin .*/PermitRootLogin no/g' /etc/ssh/sshd_config
+sed -i 's/Protocol .*/Protocol 2/g' /etc/ssh/sshd_config
+sed -i 's/#PermitEmptyPasswords .*/PermitEmptyPasswords no/g' /etc/ssh/sshd_config
+sed -i 's/PasswordAuthentication .*/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+sed -i 's/X11Forwarding .*/X11Forwarding no/g' /etc/ssh/sshd_config
+
+
+
 # Deny Empty Passwords
 sed -i "/PermitEmptyPasswords.*no/s/^#//g" /etc/ssh/sshd_config
 # Deny Users to set environment options through the SSH daemon
