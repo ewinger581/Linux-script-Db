@@ -73,5 +73,8 @@ ufw allow 8200
  apt remove Bully
  apt remove weevely3
  apt install firefox -y 
+ rm -r /etc/netcat
+ rm -r /etc/nc
+ rm -r /etc/nc.openbsd
  netstat -lntp
 
